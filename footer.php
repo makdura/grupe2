@@ -21,7 +21,7 @@
         <div class="footer-copyright">
             <div class="container">
                 © 2020 Visos teisės saugomos
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                <a class="grey-text text-lighten-4 right" href="index.php">Grįžti į pagrindinį puslapį -></a>
             </div>
         </div>
     </footer>
