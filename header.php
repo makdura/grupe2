@@ -20,10 +20,10 @@
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Logo</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
+                <li><a href="index.php">Pagrindinis puslapis</a></li>
+                <li><a href="about.php">Apie mus</a></li>
                 <li><a href="gallery.php">Portfolio</a></li>
-                <li><a href="contacts.php">Contacts</a></li>
+                <li><a href="contacts.php">Kontaktai</a></li>
             </ul>
         </div>
     </nav>
