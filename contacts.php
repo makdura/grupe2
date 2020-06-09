@@ -4,7 +4,7 @@
 
 
 <!-- Čia kontaktų puslapio vidinė dalis -->
-
-<img src="" alt="">
+<h1 class="center-align">Mūsų smagus kolektyvas</h1>
+<img src="images/about.jpg" alt="Bendra nuotrauka">
 
 <?php include "footer.php" ?>
