@@ -2,7 +2,7 @@
 <?php include "header.php" ?>
 
 
-<!-- Čia galerijos puslapio vidinė dalis -->
+<img class="pic" src="images/gallery1.jpg" alt="pvz">
 
 
 
