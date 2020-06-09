@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/style.css">
 
 
-    <title>Projekto pavadinimas</title>
+    <title>UAB DGMTV ir ko</title>
 </head>
 
 <body>
@@ -22,6 +22,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
+                <li><a href="gallery.php">Portfolio</a></li>
                 <li><a href="contacts.php">Contacts</a></li>
             </ul>
         </div>
