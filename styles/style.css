@@ -58,5 +58,12 @@ nav {
 
 
 
-
+}
 /* Teodoro stiliaus kodas: */
+
+.photo{
+    width: 100%;
+    max-width: 900px;
+    background-position: 100%;
+}
+ 
