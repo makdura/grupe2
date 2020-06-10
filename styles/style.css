@@ -47,7 +47,13 @@ nav {
 
 /* Manto stiliaus kodas: */
 
-
+.ApieInfo{    
+    font-weight: bold;
+    text-align: center;
+    font-feature-settings: "curs"; 
+    margin-left: auto;
+    margin-right: auto;
+    color: #2196F3;    
 
 
 
