@@ -29,8 +29,8 @@ nav {
 
 }
 
-.Darbuotojai  {
-display: inline-block;
+.Darbuotojai  p{
+display: inline-flex;
 
 }
 
