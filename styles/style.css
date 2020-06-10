@@ -1,4 +1,11 @@
 /* Bendras stilius: */
+input {
+    color:white;
+}
+
+textarea {
+    color: red;
+}
 
 nav {
     background-color: midnightblue;
