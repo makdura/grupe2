@@ -34,7 +34,7 @@
                 <li><a href="index.php">Pagrindinis puslapis</a></li>
                 <li><a href="gallery.php">Portfolio</a></li>
                 <li><a href="about.php">Apie mus</a></li>
-                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Kontaktai<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="contacts.php" data-target="dropdown1">Kontaktai<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
         </div>
     </nav>
