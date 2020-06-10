@@ -18,7 +18,7 @@
 
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
+            <a href="images/3dgmtv.png" class="brand-logo">Logo</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.php">Pagrindinis puslapis</a></li>
                 <li><a href="about.php">Apie mus</a></li>
