@@ -19,9 +19,9 @@
     <nav>
         <div class="nav-wrapper">
             <a href="#!" class="brand-logo">
-                <img src="images/3dgmtv.png" alt="logo">
+                <img class="pagrlogo" src="images/3dgmtv.png" alt="logo">
             </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">Meniu</i></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Pagrindinis puslapis</a></li>
                 <li><a href="gallery.php">Portfolio</a></li>

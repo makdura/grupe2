@@ -104,6 +104,8 @@
     </div>
     </div>
 </div>
+
+<img class="img-responsive" src="images/team.jpg" alt="komanda">
   
 
 
