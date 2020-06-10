@@ -34,15 +34,30 @@ nav {
     margin-right: auto;
 }
 
-.Darbuotojai {
-    display: inline-block;
+.Darbuotojai  p{
+display: inline-flex;
+
 }
 
 /* Valdemaro stiliaus kodas: */
 
-.pic {
+
+ .card {
+
+    width: 300px;
+    height: 300px;
+ }
+
+ .row center-cols > .col.m4 {
+    padding: 0px
+    
+  }
+
+  .img-responsive {
     width: 100%;
 }
+    
+
 
 /* Dominyko stiliaus kodas: */
 
@@ -63,3 +78,4 @@ nav {
 
 
 /* Teodoro stiliaus kodas: */
+}
