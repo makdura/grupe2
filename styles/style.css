@@ -76,12 +76,16 @@ display: inline-flex;
 
 
 
-}
+
 /* Teodoro stiliaus kodas: */
 
-.Virselis{
+.row{
     width: 100%;
-    position: absolute;
+
+    
+
+
+    
     
 }
  
