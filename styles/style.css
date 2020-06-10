@@ -40,21 +40,37 @@ nav {
 
 /* Valdemaro stiliaus kodas: */
 
-.pic {
+
+ .card {
+
+    width: 300px;
+    height: 300px;
+ }
+
+ .row center-cols > .col.m4 {
+    padding: 0px
+    
+  }
+
+  .img-responsive {
     width: 100%;
 }
+    
+
 
 /* Dominyko stiliaus kodas: */
 
 /* Manto stiliaus kodas: */
 
-.ApieInfo{    
+.ApieInfo{ 
+    width: 100%;
+    max-width: 900px;       
     font-weight: bold;
     text-align: center;
     font-feature-settings: "curs"; 
     margin-left: auto;
     margin-right: auto;
-    color: #2196F3;    
+    color: black;    
 
 
 
