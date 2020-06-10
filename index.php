@@ -3,8 +3,12 @@
 
 <h1>DGMTV</h1>
 
+  <div class ="Virselis">
+  <img  src="https://picsum.photos/2000/1000" alt="">
+
   
-  <img class ="photo" src="https://picsum.photos/2000/1000" alt="pvz">
+  </div>
+  
 
 
 

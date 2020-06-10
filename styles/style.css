@@ -77,9 +77,9 @@ nav {
 }
 /* Teodoro stiliaus kodas: */
 
-.photo{
+.Virselis{
     width: 100%;
-    max-width: 900px;
-    background-position: 100%;
+    position: absolute;
+    
 }
  
