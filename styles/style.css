@@ -1,4 +1,11 @@
 /* Bendras stilius: */
+input {
+    color:white;
+}
+
+textarea {
+    color: red;
+}
 
 nav {
     background-color: midnightblue;
@@ -41,9 +48,8 @@ nav {
 .carousel{
     text-align: center;
     font-weight: bold;
-    color: black;
-    
-    
+   
+
 }
 
 /* Valdemaro stiliaus kodas: */
@@ -92,9 +98,13 @@ nav {
 
 /* Teodoro stiliaus kodas: */
 
-.Virselis{
+.row2{
     width: 100%;
-    position: absolute;
+
+    
+
+
+    
     
 }
  

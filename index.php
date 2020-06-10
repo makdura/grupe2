@@ -3,12 +3,15 @@
 
 <h1>DGMTV</h1>
 
-  <div class ="Virselis">
-  <img  src="https://picsum.photos/2000/1000" alt="">
 
+
+<div class="col s12 center-align">
+  <img class="row2" class="responsive-img" src="https://picsum.photos/2000/1000" alt="">
   
-  </div>
-  
+</div>
+
+
+
 
 
 
