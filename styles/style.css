@@ -3,60 +3,49 @@
 nav {
     background-color: midnightblue;
 }
+
 .page-footer {
     background-color: midnightblue;
 }
 
-.brand-logo {
-    height:64px;
+.pagrlogo {
+    height: 128px;
 }
 
+@media only screen and (min-width: 601px) {
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 128px;
+        line-height: 128px;
+    }
+}
 
 /* Genadijaus stiliaus kodas: */
-.BendraInfo{
 
+.BendraInfo {
     font-weight: bold;
     text-align: center;
-    font-feature-settings: "curs";      
-
+    font-feature-settings: "curs";
 }
 
-.BendraInfo img{
+.BendraInfo img {
     width: 100%;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-.Darbuotojai  {
-display: inline-block;
-
+.Darbuotojai {
+    display: inline-block;
 }
-
 
 /* Valdemaro stiliaus kodas: */
 
 .pic {
     width: 100%;
-    
-    
 }
-
-
-
-
 
 /* Dominyko stiliaus kodas: */
 
-
-
-
 /* Manto stiliaus kodas: */
-
-
-
-
-
 
 /* Teodoro stiliaus kodas: */
