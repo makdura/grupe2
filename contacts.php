@@ -38,19 +38,19 @@
 
     <div class="carousel">
         <a class="carousel-item" href="#one!"><img src="images/person_4.jpg">
-            <p>Dominykas</p>
+            <p>Dominykas - griebią reikalą už ragų</p>
         </a>
         <a class="carousel-item" href="#two!"><img src="images/person_1.jpg">
-            <p>Teodoras</p>
+            <p>Teodoras - jis žino kaip</p>
         </a>
         <a class="carousel-item" href="#three!"><img src="images/speaker-3.jpg">
-            <p>Valdemar</p>
+            <p>Valdemar - idėjų maišas</p>
         </a>
         <a class="carousel-item" href="#four!"><img src="images/guest-2.jpg">
-            <p>Mantas</p>
+            <p>Mantas- neapsigauk, jis padaro nu žiauriai gerai</p>
         </a>
         <a class="carousel-item" href="#five!"><img src="images/speaker-5.jpg">
-            <p>Genadijus</p>
+            <p>Genadijus - pamatysim, pažiūrėsim</p>
         </a>
     </div>
 </div>
