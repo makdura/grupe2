@@ -11,39 +11,50 @@
         </p>
     </div>
     <!-- <div class="Darbuotojai"> -->
-        <!-- <div class="row"> -->
+    <!-- <div class="row"> -->
 
 
-            <!-- <div class="col s3 center-align"> -->
-                <!-- <img class="responsive-img" src="images/person_1.jpg" alt="Darbuotojo nuotrauka1"> -->
-            <!-- </div> -->
-            <!-- <div class="col s3 center-align"> -->
-                <!-- <p class="flow-text center-align">Jonas Jonaitis Telefonas Emailas </p> -->
-            <!-- </div> -->
+    <!-- <div class="col s3 center-align"> -->
+    <!-- <img class="responsive-img" src="images/person_1.jpg" alt="Darbuotojo nuotrauka1"> -->
+    <!-- </div> -->
+    <!-- <div class="col s3 center-align"> -->
+    <!-- <p class="flow-text center-align">Jonas Jonaitis Telefonas Emailas </p> -->
+    <!-- </div> -->
 
-            <!-- <div class="col s3  center-align"> -->
-                <!-- <img class="responsive-img" src="images/person_4.jpg" alt="Darbuotojo nuotrauka2"> -->
-            <!-- </div> -->
-            <!-- <div class="col s3  center-align"> -->
-                <!-- <p class="flow-text center-align"> -->
-                    <!-- Petras Petraitis -->
-                    <!-- Telefonas -->
-                    <!-- Emailas -->
-                <!-- </p> -->
-            <!-- </div> -->
+    <!-- <div class="col s3  center-align"> -->
+    <!-- <img class="responsive-img" src="images/person_4.jpg" alt="Darbuotojo nuotrauka2"> -->
+    <!-- </div> -->
+    <!-- <div class="col s3  center-align"> -->
+    <!-- <p class="flow-text center-align"> -->
+    <!-- Petras Petraitis -->
+    <!-- Telefonas -->
+    <!-- Emailas -->
+    <!-- </p> -->
+    <!-- </div> -->
 
 
-        <!-- </div> -->
+    <!-- </div> -->
     <!-- </div> -->
 
     <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="images/person_4.jpg"><p>Dominykas</p></a>
-    <a class="carousel-item" href="#two!"><img src="images/person_1.jpg"><p>Teodoras</p></a>
-    <a class="carousel-item" href="#three!"><img src="images/speaker-3.jpg"><p>Valdemar</p></a>
-    <a class="carousel-item" href="#four!"><img src="images/guest-2.jpg"><p>Mantas</p></a>
-    <a class="carousel-item" href="#five!"><img src="images/speaker-5.jpg"><p>Genadijus</p></a>
-  </div>
+        <a class="carousel-item" href="#one!"><img src="images/person_4.jpg">
+            <p>Dominykas</p>
+        </a>
+        <a class="carousel-item" href="#two!"><img src="images/person_1.jpg">
+            <p>Teodoras</p>
+        </a>
+        <a class="carousel-item" href="#three!"><img src="images/speaker-3.jpg">
+            <p>Valdemar</p>
+        </a>
+        <a class="carousel-item" href="#four!"><img src="images/guest-2.jpg">
+            <p>Mantas</p>
+        </a>
+        <a class="carousel-item" href="#five!"><img src="images/speaker-5.jpg">
+            <p>Genadijus</p>
+        </a>
+    </div>
+</div>
 
 
 
-    <?php include "footer.php" ?>
+<?php include "footer.php" ?>
