@@ -18,14 +18,24 @@
 
     <nav>
         <div class="nav-wrapper">
-            <a href="images/3dgmtv.png" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="#!" class="brand-logo">
+                <img src="images/3dgmtv.png" alt="logo">
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li><a href="index.php">Pagrindinis puslapis</a></li>
-                <li><a href="about.php">Apie mus</a></li>
                 <li><a href="gallery.php">Portfolio</a></li>
+                <li><a href="about.php">Apie mus</a></li>
                 <li><a href="contacts.php">Kontaktai</a></li>
             </ul>
         </div>
     </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.php">Pagrindinis puslapis</a></li>
+        <li><a href="gallery.php">Portfolio</a></li>
+        <li><a href="about.php">Apie mus</a></li>
+        <li><a href="contacts.php">Kontaktai</a></li>
+    </ul>
 
     <!-- Čia pasikartojanti visuose puslapiuose viršutinė dalis -->

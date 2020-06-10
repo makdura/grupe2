@@ -7,7 +7,9 @@ nav {
     background-color: midnightblue;
 }
 
-
+.brand-logo {
+    height:64px;
+}
 
 
 /* Genadijaus stiliaus kodas: */
@@ -24,6 +26,11 @@ nav {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.Darbuotojai  {
+display: inline-block;
 
 }
 
