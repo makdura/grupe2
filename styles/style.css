@@ -41,20 +41,27 @@ nav {
 /* Valdemaro stiliaus kodas: */
 
 
- .card {
-
-    width: 300px;
-    height: 300px;
- }
-
- .row center-cols > .col.m4 {
-    padding: 0px
-    
-  }
-
-  .img-responsive {
-    width: 100%;
+.topcardheight {
+    padding-top: 6px;
+    padding-bottom: 0px;
 }
+
+.footerimg {
+    height: 300px;
+    background-image: url(../images/team.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.footerformposition {
+    padding: 120px;
+}
+
+/* label color */
+.input-field label {
+    color: rgb(255, 0, 0);
+  }
     
 
 
