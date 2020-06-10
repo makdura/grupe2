@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var instances = M.Sidenav.init(elems);
 
   var elems = document.querySelectorAll('.dropdown-trigger');
-  var instances = M.Sidenav.init(elems);
+  var instances = M.Dropdown.init(elems);
 
 });

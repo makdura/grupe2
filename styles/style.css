@@ -34,8 +34,9 @@ nav {
     margin-right: auto;
 }
 
-.Darbuotojai {
-    display: inline-block;
+.Darbuotojai  p{
+display: inline-flex;
+
 }
 
 /* Valdemaro stiliaus kodas: */
@@ -66,11 +67,12 @@ nav {
     width: 100%;
     max-width: 900px;       
     font-weight: bold;
-    text-align: center;
-    font-feature-settings: "curs"; 
+    text-align: center;   
+    font-style: italic; 
     margin-left: auto;
     margin-right: auto;
-    color: black;    
+    color: black;   
+} 
 
 
 
