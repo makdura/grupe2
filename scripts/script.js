@@ -6,3 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var instances = M.Dropdown.init(elems);
 
 });
+
+// Genadijaus
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems);
+});
