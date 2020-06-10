@@ -1,13 +1,38 @@
 /* Bendras stilius: */
 
+nav {
+    background-color: midnightblue;
+}
+.page-footer {
+    background-color: midnightblue;
+}
 
-
+.brand-logo {
+    height:64px;
+}
 
 
 /* Genadijaus stiliaus kodas: */
+.BendraInfo{
 
+    font-weight: bold;
+    text-align: center;
+    font-feature-settings: "curs";      
 
+}
 
+.BendraInfo img{
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Darbuotojai  {
+display: inline-block;
+
+}
 
 
 /* Valdemaro stiliaus kodas: */
@@ -32,9 +57,6 @@
 
 /* Dominyko stiliaus kodas: */
 
-nav {
-    background-color: midnightblue;
-}
 
 
 

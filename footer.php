@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
+                    <h5 class="white-text">Įmonės moto:</h5>
                     <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Norint susisiekti, rašykite administratoriui.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
@@ -21,7 +21,7 @@
         <div class="footer-copyright">
             <div class="container">
                 © 2020 Visos teisės saugomos
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                <a class="grey-text text-lighten-4 right" href="index.php">Grįžti į pagrindinį puslapį -></a>
             </div>
         </div>
     </footer>
