@@ -3,12 +3,13 @@
 
 <div class="row center-cols">
 <div class="col s12 m8 offset-m4 l6 offset-l3">
-        <div class="card-panel grey lighten-5 z-depth-2">
+        <div class="card-panel grey lighten-5 z-depth-2 topcardheight"> 
           <div class="row valign-wrapper">
             <div class="col s3">
               <img src="images/3DGMTV.png" alt="" class="circle responsive-img"> 
             </div>
             <div class="col s18">
+                <div style=></div>
               <h6 class="black-text">
                 Čia yra mūsų įmonės projektai. Mes jais labai didžiuojames.
               </h6>
@@ -20,7 +21,7 @@
 
 
 <div class="row center-cols">
-    <div class="col m4">
+    <div class="col m3">
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
@@ -34,7 +35,7 @@
     </div>
     </div>
   
-    <div class="col m4">
+    <div class="col m3">
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
@@ -48,7 +49,7 @@
     </div>
     </div>
 
-    <div class="col m4">
+    <div class="col m3">
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
@@ -62,7 +63,7 @@
     </div>
     </div>
 
-    <div class="col m4">
+    <div class="col m3">
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
@@ -76,7 +77,7 @@
     </div>
     </div>
 
-    <div class="col m4">
+    <div class="col m3">
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
@@ -90,7 +91,7 @@
     </div>
     </div>
 
-    <div class="col m4">
+    <div class="col m3">
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
@@ -103,9 +104,56 @@
        </div>
     </div>
     </div>
+
+    <div class="col m3">
+      <div class="card">
+      <div class="card-panel hoverable">
+        <div class="card-image">
+          <img src="images/project-8.jpg">
+          <span class="card-title">Septintas projektas</span>
+        </div>
+        <div class="card-content">
+          <p>Tai yra mūsų septintas projektas kuris buvo cool !</p>
+        </div>
+       </div>
+    </div>
+    </div>
+
+    <div class="col m3">
+      <div class="card">
+      <div class="card-panel hoverable">
+        <div class="card-image">
+          <img src="images/project-5.jpg" height="200">
+          <span class="card-title">Aštuntas projektas</span>
+        </div>
+        <div class="card-content">
+          <p>Tai yra mūsų aštuntas projektas kuris buvo cool !</p>
+        </div>
+       </div>
+    </div>
+    </div>
 </div>
 
-<img class="img-responsive" src="images/team.jpg" alt="komanda">
+<!-- <img class="img" src="images/team.jpg" alt="komanda"> -->
+<div class="footerimg">
+
+<div class="footerformposition">
+<div class="row">
+    <form class="col s12 offset-l3">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2">Patiko mūsų darbai ? Parašykite komentarą mums</label>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+
+</div>
+
+<br>
   
 
 

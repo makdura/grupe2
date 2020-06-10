@@ -23,6 +23,13 @@
         <li><a href="https:/picsum.photos/id/1020/300/300">Imones Skrandis</a></li>
         <li><a href="https:/picsum.photos/id/103/300/300">Imones Kojos</a></li>
     </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="https:/picsum.photos/id/1009/300/300">Imones Galva</a></li>
+        <li><a href="https:/picsum.photos/id/1011/300/300">Imones Peciai</a></li>
+        <li><a href="https:/picsum.photos/id/1025/300/300">Imones Alkunes</a></li>
+        <li><a href="https:/picsum.photos/id/1020/300/300">Imones Skrandis</a></li>
+        <li><a href="https:/picsum.photos/id/103/300/300">Imones Kojos</a></li>
+    </ul>
     <nav>
         <div class="nav-wrapper">
             <a href="images/3DGMTV.png" class="brand-logo">
@@ -44,6 +51,7 @@
         <li><a href="gallery.php">Portfolio</a></li>
         <li><a href="about.php">Apie mus</a></li>
         <li><a href="contacts.php">Kontaktai</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Greitas susisiekimas<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
 
     <!-- Čia pasikartojanti visuose puslapiuose viršutinė dalis -->
