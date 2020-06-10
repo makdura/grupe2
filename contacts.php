@@ -12,30 +12,32 @@
     </div>
     <div class="Darbuotojai">
         <div class="row">
-        <div class="col s12 m6 l3 center-align">
-        <img class="responsive-img" src="images/person_1.jpg" alt="Darbuotojo nuotrauka1">
-        <p class="flow-text center-align">
-            Jonas Jonaitis
-            Telefonas
-            Emailas
-           
-        </p>
-        </div>
-       <div class="col s12 m6 l3 center-align">
-        <img class="responsive-img" src="images/person_4.jpg" alt="Darbuotojo nuotrauka2">
-        <p class="flow-text center-align">
-            Petras  Petraitis
-            Telefonas
-            Emailas
-        </p>
-        </div>
-        </div>
 
+
+            <div class="col s2 center-align">
+                <img class="responsive-img" src="images/person_1.jpg" alt="Darbuotojo nuotrauka1">
+            </div>
+            <div class="col s2 center-align">
+                <p class="flow-text center-align">Jonas Jonaitis Telefonas Emailas </p>
+            </div>
+
+            <div class="col s2  center-align">
+                <img class="responsive-img" src="images/person_4.jpg" alt="Darbuotojo nuotrauka2">
+            </div>
+            <div class="col s2  center-align">
+                <p class="flow-text center-align">
+                    Petras Petraitis
+                    Telefonas
+                    Emailas
+                </p>
+            </div>
+
+
+        </div>
     </div>
-</div>
 
 
 
 
 
-<?php include "footer.php" ?>
+    <?php include "footer.php" ?>
