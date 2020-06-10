@@ -11,9 +11,21 @@ nav {
 
 
 /* Genadijaus stiliaus kodas: */
+.BendraInfo{
 
+    font-weight: bold;
+    text-align: center;
+    font-feature-settings: "curs";      
 
+}
 
+.BendraInfo img{
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 
 /* Valdemaro stiliaus kodas: */
