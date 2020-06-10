@@ -34,8 +34,9 @@ nav {
     margin-right: auto;
 }
 
-.Darbuotojai {
-    display: inline-block;
+.Darbuotojai  p{
+display: inline-flex;
+
 }
 
 /* Valdemaro stiliaus kodas: */
