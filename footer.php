@@ -5,15 +5,24 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Įmonės moto:</h5>
-                    <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Norint susisiekti, rašykite administratoriui.</p>
+                    <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Jei nesi su mumis, esi prieš mus. Tapk mūsų nariu:</p>
+                    <form action="index.php">
+                        <label for="name">Vardas Pavardė:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">E-Pašto adresas:</label>
+                        <input type="text" id="email" name="email"><br>
+                        <label for="experience">Jūsų nuomonė apie mus:</label><br>
+                        <textarea name="experience" id="experience" cols="20" rows="2"></textarea><br>
+                        <button type="button" onclick="alert('Jei neveikia, įrašykite teigiamą nuomonę apie mus')">Registruotis!</button>
+                    </form><br>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Partneriai</h5>
+                    <h5 class="white-text">Partneriai:</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Maxima</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Barclays</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">SEB</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">KTU</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.maxima.lt">MAXIMA</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.barclays.com">BARCLAYS</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.seb.lt">SEB</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.vilniuscoding.lt">Coding School</a></li>
                     </ul>
                 </div>
             </div>
