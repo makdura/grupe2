@@ -27,7 +27,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img class="materialboxed" width="650" src="images/project-1.jpg">
+          <img class="materialboxed" data-caption="Pirmas projektas" src="images/project-1.jpg">
           <span class="card-title">Pirmas projektas</span>
         </div>
         <div class="card-content">
@@ -41,7 +41,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-2.jpg">
+          <img class="materialboxed" data-caption="Antras projektas" src="images/project-2.jpg">
           <span class="card-title">Antras projektas</span>
         </div>
         <div class="card-content">
@@ -55,7 +55,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-3.jpg">
+          <img class="materialboxed" data-caption="Trečias projektas" src="images/project-3.jpg">
           <span class="card-title">Trečias projektas</span>
         </div>
         <div class="card-content">
@@ -69,7 +69,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-4.jpg">
+          <img class="materialboxed" data-caption="Ketvirtas projektas" src="images/project-4.jpg">
           <span class="card-title">Ketvirtas projektas</span>
         </div>
         <div class="card-content">
@@ -83,7 +83,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-7.jpg">
+          <img class="materialboxed" data-caption="Penktas projektas" src="images/project-7.jpg">
           <span class="card-title">Penktas projektas</span>
         </div>
         <div class="card-content">
@@ -97,7 +97,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-6.jpg">
+          <img class="materialboxed" data-caption="Šeštas projektas" src="images/project-6.jpg">
           <span class="card-title">Šeštas projektas</span>
         </div>
         <div class="card-content">
@@ -111,7 +111,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-8.jpg">
+          <img class="materialboxed" data-caption="Septintas projektas" src="images/project-8.jpg">
           <span class="card-title">Septintas projektas</span>
         </div>
         <div class="card-content">
@@ -125,7 +125,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-5.jpg" height="200">
+          <img class="materialboxed" data-caption="Aštuntas projektas" src="images/project-5.jpg" height="200px">
           <span class="card-title">Aštuntas projektas</span>
         </div>
         <div class="card-content">
