@@ -1,12 +1,14 @@
 
 <?php include "header.php" ?>
 
+
+
 <div class="row center-cols">
 <div class="col s12 m8 offset-m4 l6 offset-l3">
         <div class="card-panel grey lighten-5 z-depth-2 topcardheight"> 
           <div class="row valign-wrapper">
             <div class="col s3">
-              <img src="images/3DGMTV.png" alt="" class="circle responsive-img"> 
+              <img  src="images/3DGMTV.png" alt="" class="circle responsive-img"> 
             </div>
             <div class="col s18">
                 <div style=></div>
@@ -25,7 +27,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-1.jpg">
+          <img class="materialboxed" width="650" src="images/project-1.jpg">
           <span class="card-title">Pirmas projektas</span>
         </div>
         <div class="card-content">
