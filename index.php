@@ -33,15 +33,30 @@
 
 <div class="parallax">
   <div class="parallax__layer parallax__layer--back">
-    
+    <img src="https://images.hdqwalls.com/wallpapers/new-york-buildings-city-night-minimalism-4e.jpg" alt="">
   </div>
-  <div class="parallax__layer parallax__layer--base">
-    ...
+  <div class="parallax__layer parallax__layer--base; center-align ">
+    <div class="slide">
+      <h1>DGMTV - Tobuliausia kompanija Lietuvoje!</h1>
+
+      <P style ="font-size:25px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ullam, nisi praesentium dolorem exercitationem, quia impedit, atque molestiae iusto dolore illo? Velit at autem incidunt, eos adipisci provident earum obcaecati?</P>
+    </div>
+
+    <div class="slide">
+        <h1>Pagrindiniai remėjai</h1>
+        <p style="font-size: 30px;">Barclays</p>
+        <img src="https://media.licdn.com/dms/image/C4D0BAQFB40olEL2zEg/company-logo_200_200/0?e=2159024400&v=beta&t=jKiQqt2GylHQiduQ7lUaLMLqus-vkTwmCVpxcu1LPm4" alt="">
+        <p style="font-size: 30px;">Coding_school</p>
+        <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGWHfB-yQ54jw/company-logo_200_200/0?e=2159024400&v=beta&t=DKPlQb_StgDvR1LBUkcqSnG7bunswI4_Nej1wYz7M08" alt="">
+        <p style="font-size: 30px;">SEB</p>
+        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFYNmBvtZY7eQ/company-logo_200_200/0?e=2159024400&v=beta&t=Ge3ME82wOfyYKT9C5ygVwwHr9ui0_9jJkEjFgdRD73s" alt="">
+        
+    </div>
   </div>
 </div>
 
 
-   
+
 
 
 

@@ -28,3 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+// Valdemar
+
+M.toast('Ačiū už komentarą!', 4000)
