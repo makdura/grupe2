@@ -32,15 +32,35 @@
             <h6>Kažką darom</h6>
 
         </div>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script src="scripts/script.js"></script>
-
+  
 
 
     </div>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="scripts/script.js"></script>
+
+<div class="footerformposition">
+<div class="row">
+    <form class="col s12 offset-l3">
+      <div class="row">
+        <div class="input-field col s10">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2">Įdomu ką darom? Pat sugalvok ką veikti</label>
+        </div>
+      </div>
+    </form>
+  </div>
+  </div>
+
 </div>
+
+
+
+
 
 
 

@@ -6,14 +6,47 @@
                 <div class="col l6 s12">
                     <h5 class="white-text">Įmonės moto:</h5>
                     <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Jei nesi su mumis, esi prieš mus. Tapk mūsų nariu:</p>
-                    <form action="index.php">
+
+                    <?php
+                    $servername = "localhost";
+                    $username = "root";
+                    $password = "";
+                    $dbname = "birzelis2121";
+
+                    $conn = new mysqli($servername, $username, $password, $dbname);
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+
+                    if (isset($_GET["name"])) {
+
+                        $name = $_GET["name"];
+                        $email = $_GET["email"];
+                        $bankid = $_GET["bankid"];
+
+                    }
+
+                    $sql = "INSERT INTO scamers (id, name, email, bankid) VALUES (null, '$name', '$email', '$bankid')";
+
+                    if ($conn->query($sql) === TRUE) {
+                        echo "New record created successfully";
+                    } else {
+                        echo "Error: " . $sql . "<br>" . $conn->error;
+                    }
+
+                    $sql = "SELECT id, name, email, bankid FROM scamers";
+                    $result = $conn->query($sql);
+                    $conn->close();
+                    ?>
+
+                    <form action="">
                         <label for="name">Vardas Pavardė:</label>
-                        <input type="text" id="name" name="name"><br>
+                        <input type="text" name="name"><br>
                         <label for="email">E-Pašto adresas:</label>
-                        <input type="text" id="email" name="email"><br>
-                        <label for="experience">Jūsų banko sąskaitos kontaktinė informacija:</label><br>
-                        <textarea name="experience" id="experience" cols="20" rows="2"></textarea><br>
-                        <button type="button" onclick="alert('Įvesta banko sąskaita jau egzistuoja. Įveskite kitą!')">Registruotis!</button>
+                        <input type="text" name="email"><br>
+                        <label for="bankid">Jūsų banko sąskaitos kontaktinė informacija:</label><br>
+                        <input type="text" name="bankid"></input><br>
+                        <button>Registruotis!</button>
                     </form><br>
                 </div>
                 <div class="col l4 offset-l2 s12">
