@@ -38,7 +38,7 @@
 
     <div class="carousel">
         <a class="carousel-item" href="#one!"><img src="images/person_4.jpg">
-            <p class="blue-text text-darken-4">Dominykas - griebią reikalą už ragų</p>
+            <p class="blue-text text-darken-4"> Dominykas - griebią reikalą už ragų</p>
         </a>
         <a class="carousel-item" href="#two!"><img src="images/person_1.jpg">
             <p class="blue-text text-darken-4">Teodoras - jis žino kaip</p>
@@ -53,6 +53,65 @@
             <p class="blue-text text-darken-4">Genadijus - pamatysim, pažiūrėsim</p>
         </a>
     </div>
+
+    
+
+        <div class="chip">
+            <img src="images/person_4.jpg" alt="Dominykas">
+            <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Dominykas</a>
+        </div>
+        <div class="chip">
+            <img src="images/person_1.jpg" alt="Teodoras">
+            <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Teodoras</a>
+        </div>
+        <div class="chip">
+            <img src="images/speaker-3.jpg" alt="Valdemar">
+            <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Valdemar</a>
+        </div>
+        <div class="chip">
+            <img src="images/guest-2.jpg" alt="Mantas">
+            <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Mantas</a>
+        </div>
+        <div class="chip">
+            <img src="images/speaker-5.jpg" alt="Genadijus">
+            <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Genadijus</a>
+        </div>
+  
+
+
+
+
+
+
+    <!-- Google maps !!!!!!!!!!!!!!!!!!!! -->
+
+    <h5 id="zemelapis">Mes esame gražiausioje Lietuvos vietoje:</h5>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 54.688380,
+                lng: 25.290080
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 12,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV6bBDWBXNGjglxmMSXrhUEpuPWItjCRM&callback=initMap">
+    </script>
+
 </div>
 
 

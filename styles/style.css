@@ -38,6 +38,7 @@ nav {
 .BendraInfo img {
     width: 100%;
     max-width: 900px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -49,9 +50,20 @@ nav {
 .carousel{
     text-align: center;
     font-weight: bold;
-   
+  }
 
-}
+    /* Set the size of the div element that contains the map Google maps */
+    #map {
+      height: 300px;  /* The height is 400 pixels */
+      width: 51%;  /* The width is the width of the web page */
+     }
+
+     #zemelapis {
+       font-weight: bold;
+       color: blue;
+       font-size: x-large;
+
+     }
 
 /* Valdemaro stiliaus kodas: */
 
@@ -124,7 +136,7 @@ nav {
 } 
 
 
-
+/*  */
 /* Teodoro stiliaus kodas: */
 
 .parallax {
@@ -158,6 +170,17 @@ nav {
   color: ivory;
   font-style: italic;
   
+}
+.slide2 {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  transform-style: inherit;
+  color: yellow;
+  font-style: italic;
 }
 
  
