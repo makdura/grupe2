@@ -104,18 +104,19 @@ nav {
     color: black;   
 } 
 
-.collapsible { 
-  width: 100%;
-  max-width: 900px;       
-  font-weight: bold;
-  text-align: center;   
 
-} 
 
 .comentPosition {
   padding: 100px;
   color: black;
 }
+
+.tost { 
+  text-align: center;
+  color: black;
+  
+
+} 
 
 
 
