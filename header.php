@@ -17,18 +17,18 @@
 <body>
 
     <ul id="dropdown1" class="dropdown-content">
-        <li><a href="https:/picsum.photos/id/1009/300/300">Imones Galva</a></li>
-        <li><a href="https:/picsum.photos/id/1011/300/300">Imones Peciai</a></li>
-        <li><a href="https:/picsum.photos/id/1025/300/300">Imones Alkunes</a></li>
-        <li><a href="https:/picsum.photos/id/1020/300/300">Imones Skrandis</a></li>
-        <li><a href="https:/picsum.photos/id/103/300/300">Imones Kojos</a></li>
+        <li><a href="mailto:someone@example.com">Imones Galva</a></li>
+        <li><a href="mailto:someone@example.com">Imones Peciai</a></li>
+        <li><a href="mailto:someone@example.com">Imones Alkunes</a></li>
+        <li><a href="mailto:someone@example.com">Imones Skrandis</a></li>
+        <li><a href="mailto:someone@example.com">Imones Kojos</a></li>
     </ul>
     <ul id="dropdown2" class="dropdown-content">
-        <li><a href="https:/picsum.photos/id/1009/300/300">Imones Galva</a></li>
-        <li><a href="https:/picsum.photos/id/1011/300/300">Imones Peciai</a></li>
-        <li><a href="https:/picsum.photos/id/1025/300/300">Imones Alkunes</a></li>
-        <li><a href="https:/picsum.photos/id/1020/300/300">Imones Skrandis</a></li>
-        <li><a href="https:/picsum.photos/id/103/300/300">Imones Kojos</a></li>
+        <li><a href="mailto:someone@example.com">Imones Galva</a></li>
+        <li><a href="mailto:someone@example.com">Imones Peciai</a></li>
+        <li><a href="mailto:someone@example.com">Imones Alkunes</a></li>
+        <li><a href="mailto:someone@example.com">Imones Skrandis</a></li>
+        <li><a href="mailto:someone@example.com">Imones Kojos</a></li>
     </ul>
     <nav>
         <div class="nav-wrapper">
