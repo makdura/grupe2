@@ -35,14 +35,10 @@
 
 
   </div>
-  
 
 
 
-</div>
-
-
-<div class="comentPosition">
+  <div class="comentPosition">
   <div class="row">
     <form class="col s12 offset-l1">
       <div class="row">
@@ -57,28 +53,38 @@
 
 <ul class="collapsible">
   <li>
-    <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+    <div class="collapsible-header">Darom</div>
     <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
   </li>
   <li>
-    <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+    <div class="collapsible-header">Dirbam</div>
     <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
   </li>
   <li>
-    <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+    <div class="collapsible-header">Padarom</div>
     <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
   </li>
 </ul>
 
+<br>
+
+
 </div>
-
-
-
-
 
 <div class="tost">
-  <a onclick="M.toast({html: 'Mes viską baigę!'})" class="btn">Apie mus mus mus mus mus!</a>
+  <a onclick="M.toast({html: 'Mes viską baigę!'})" class="btn2">Apie mus mus mus mus mus!</a>
 </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

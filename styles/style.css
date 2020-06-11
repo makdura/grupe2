@@ -111,7 +111,7 @@ nav {
 /* Manto stiliaus kodas: */
 
 .ApieInfo { 
-    width: 100%;
+    
     max-width: 900px;       
     font-weight: bold;
     text-align: center;   
@@ -128,11 +128,15 @@ nav {
   color: black;
 }
 
-.tost { 
-  text-align: center;
-  padding: 20px;
-  color: black;
-  
+.btn2 {   
+  font-weight: bold;
+  color: midnightblue;
+
+  }
+
+.tost {   
+  text-align: center; 
+  background-color: rgba(25, 25, 112, 0.678);  
 
 } 
 
