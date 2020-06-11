@@ -1,12 +1,42 @@
 
 <?php include "header.php" ?>
 
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "birzelis2121";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if (!$conn->connect_error) {
+
+
+
+        if (isset($_GET["text"])) {
+
+            $name = $_GET["text"];
+            
+
+
+            $sql = "INSERT INTO data (id, text) VALUES (null, '$text')";
+
+            if ($conn->query($sql) === TRUE) {
+                header("Location: index.php?status=success");
+            } else {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+
+            $conn->close();
+        }
+    }
+    ?>
+
 <div class="row center-cols">
 <div class="col s12 m8 offset-m4 l6 offset-l3">
         <div class="card-panel grey lighten-5 z-depth-2 topcardheight"> 
           <div class="row valign-wrapper">
             <div class="col s3">
-              <img src="images/3DGMTV.png" alt="" class="circle responsive-img"> 
+              <img  src="images/3DGMTV.png" alt="" class="circle responsive-img"> 
             </div>
             <div class="col s18">
                 <div style=></div>
@@ -25,7 +55,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-1.jpg">
+          <img class="materialboxed" data-caption="Pirmas projektas" src="images/project-1.jpg">
           <span class="card-title">Pirmas projektas</span>
         </div>
         <div class="card-content">
@@ -39,7 +69,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-2.jpg">
+          <img class="materialboxed" data-caption="Antras projektas" src="images/project-2.jpg">
           <span class="card-title">Antras projektas</span>
         </div>
         <div class="card-content">
@@ -53,7 +83,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-3.jpg">
+          <img class="materialboxed" data-caption="Trečias projektas" src="images/project-3.jpg">
           <span class="card-title">Trečias projektas</span>
         </div>
         <div class="card-content">
@@ -67,7 +97,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-4.jpg">
+          <img class="materialboxed" data-caption="Ketvirtas projektas" src="images/project-4.jpg">
           <span class="card-title">Ketvirtas projektas</span>
         </div>
         <div class="card-content">
@@ -81,7 +111,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-7.jpg">
+          <img class="materialboxed" data-caption="Penktas projektas" src="images/project-7.jpg">
           <span class="card-title">Penktas projektas</span>
         </div>
         <div class="card-content">
@@ -95,7 +125,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-6.jpg">
+          <img class="materialboxed" data-caption="Šeštas projektas" src="images/project-6.jpg">
           <span class="card-title">Šeštas projektas</span>
         </div>
         <div class="card-content">
@@ -109,7 +139,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-8.jpg">
+          <img class="materialboxed" data-caption="Septintas projektas" src="images/project-8.jpg">
           <span class="card-title">Septintas projektas</span>
         </div>
         <div class="card-content">
@@ -123,7 +153,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img src="images/project-5.jpg" height="200">
+          <img class="materialboxed" data-caption="Aštuntas projektas" src="images/project-5.jpg" height="200px">
           <span class="card-title">Aštuntas projektas</span>
         </div>
         <div class="card-content">
@@ -137,6 +167,8 @@
 
 <div class="footerimg">
 
+
+
 <div class="overlay">
 </div>
 
@@ -148,6 +180,7 @@
           <i class="material-icons prefix">mode_edit</i>
           <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
           <label for="icon_prefix2">Patiko mūsų darbai ? Parašykite komentarą mums</label>
+          <a onclick="M.toast({html: 'Ačiū už komentarą!'})" class="btn">Siūsk!</a>
         </div>
       </div>
     </form>
@@ -155,6 +188,7 @@
   </div>
 
 </div>
+
 
 <br>
   
