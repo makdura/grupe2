@@ -5,7 +5,8 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Įmonės moto:</h5>
-                    <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Jei nesi su mumis, esi prieš mus. Tapk mūsų nariu ir laimėk prizą:</p>
+                    <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Jei nesi su mumis, esi prieš mus. Tapk mūsų nariu ir laimėk prizą*:</p>
+
 
                     <form action="">
                         <label for="name">Vardas Pavardė:</label>
