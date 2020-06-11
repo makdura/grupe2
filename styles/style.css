@@ -1,6 +1,6 @@
 /* Bendras stilius: */
 input {
-    color:white;
+    color:rgb(253, 0, 0);
 }
 
 textarea {
@@ -88,6 +88,11 @@ nav {
 
   }
 
+  .btn {
+    background-color: red;
+    position: absolute;
+  }
+
 
 /* Dominyko stiliaus kodas: */
 
@@ -104,6 +109,10 @@ nav {
     color: black;   
 } 
 
+.comentPosition {
+  padding: 100px;
+  color: black;
+}
 
 
 

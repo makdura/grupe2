@@ -1,7 +1,35 @@
 
 <?php include "header.php" ?>
 
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "birzelis2121";
 
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if (!$conn->connect_error) {
+
+
+
+        if (isset($_GET["text"])) {
+
+            $name = $_GET["text"];
+            
+
+
+            $sql = "INSERT INTO data (id, text) VALUES (null, '$text')";
+
+            if ($conn->query($sql) === TRUE) {
+                header("Location: index.php?status=success");
+            } else {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+
+            $conn->close();
+        }
+    }
+    ?>
 
 <div class="row center-cols">
 <div class="col s12 m8 offset-m4 l6 offset-l3">
@@ -139,6 +167,8 @@
 
 <div class="footerimg">
 
+
+
 <div class="overlay">
 </div>
 
@@ -150,6 +180,7 @@
           <i class="material-icons prefix">mode_edit</i>
           <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
           <label for="icon_prefix2">Patiko mūsų darbai ? Parašykite komentarą mums</label>
+          <a class="btn" onclick="Materialize.toast('Ačiū už komentarą', 4000)">Siūsk!</a>
         </div>
       </div>
     </form>
@@ -157,6 +188,7 @@
   </div>
 
 </div>
+
 
 <br>
   
