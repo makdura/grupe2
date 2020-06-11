@@ -48,7 +48,7 @@
 
   <script src="scripts/script.js"></script>
 
-  <!-- <div class="comentPosition">
+  <div class="comentPosition">
     <div class="row">
       <form class="col s12 offset-l1">
         <div class="row">
@@ -61,7 +61,7 @@
     </div>
   </div>
 
-</div> -->
+</div>
 
 
 
