@@ -1,8 +1,3 @@
-<?php include "header.php" ?>
-
-<!-- Čia apie puslapio vidinė dalis -->
-
-<div class="ApieInfo">
 
 <?php include "header.php" ?>
 
