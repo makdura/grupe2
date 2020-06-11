@@ -4,6 +4,12 @@
 
 <div class="ApieInfo">
 
+<?php include "header.php" ?>
+
+<!-- Čia apie puslapio vidinė dalis -->
+
+<div class="ApieInfo">
+
   <h1>Apie mus</h1>
 
   <img class="responsive-img" src="images/workshop.jpg" alt="Dirbam">
@@ -42,7 +48,7 @@
 
   <script src="scripts/script.js"></script>
 
-  <div class="comentPosition">
+  <!-- <div class="comentPosition">
     <div class="row">
       <form class="col s12 offset-l1">
         <div class="row">
@@ -55,7 +61,38 @@
     </div>
   </div>
 
-</div>
+</div> -->
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="scripts/script.js"></script>
+
+
+
+
+
+
+
+
+<!-- nusibodo zaisti -->
+<!-- <div class="comentPosition">
+    <div class="row">
+      <form class="col s12 offset-l1">
+        <div class="row">
+          <div class="input-field col s10">
+            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <label for="icon_prefix2"> Įdomu ką darom? Pat sugalvok ką veikti</label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div> -->
 
 
 
