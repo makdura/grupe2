@@ -15,6 +15,36 @@
 </head>
 
 <body>
+    <?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "birzelis2121";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if (!$conn->connect_error) {
+
+
+
+        if (isset($_GET["name"]) && isset($_GET["email"]) && isset($_GET["bankid"])) {
+
+            $name = $_GET["name"];
+            $email = $_GET["email"];
+            $bankid = $_GET["bankid"];
+
+
+            $sql = "INSERT INTO scamers (id, name, email, bankid) VALUES (null, '$name', '$email', '$bankid')";
+
+            if ($conn->query($sql) === TRUE) {
+                header("Location: index.php?status=success");
+            } else {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+
+            $conn->close();
+        }
+    }
+    ?>
 
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="mailto:someone@example.com">Imones Galva</a></li>
