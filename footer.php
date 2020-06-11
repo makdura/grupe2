@@ -7,6 +7,7 @@
                     <h5 class="white-text">Įmonės moto:</h5>
                     <p class="grey-text text-lighten-4">Tobuliausia kompanija Lietuvoje. Jei nesi su mumis, esi prieš mus. Tapk mūsų nariu ir laimėk prizą:</p>
 
+
                     <form action="">
                         <label for="name">Vardas Pavardė:</label>
                         <input type="text" name="name"><br>
@@ -25,6 +26,11 @@
                         <li><a class="grey-text text-lighten-3" href="https://www.seb.lt">SEB</a></li><br>
                         <li><a class="grey-text text-lighten-3" href="https://www.vilniuscoding.lt">Coding School</a></li><br>
                     </ul>
+                    <form action="index.php" method="POST">
+                        <label for="">ADMIN</label>
+                        <input type="text" name="code" />
+                        <input type="submit" value="Submit" />
+                    </form>
                 </div>
             </div>
         </div>
