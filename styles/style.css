@@ -93,7 +93,7 @@ nav {
 
 /* Manto stiliaus kodas: */
 
-.ApieInfo{ 
+.ApieInfo { 
     width: 100%;
     max-width: 900px;       
     font-weight: bold;
@@ -102,6 +102,14 @@ nav {
     margin-left: auto;
     margin-right: auto;
     color: black;   
+} 
+
+.collapsible { 
+  width: 100%;
+  max-width: 900px;       
+  font-weight: bold;
+  text-align: center;   
+
 } 
 
 .comentPosition {
