@@ -20,4 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
 // Mantas
 
 M.toast({html: 'I am a toast!'})
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.collapsible');
+  var instances = M.Collapsible.init(elems, options);
+  var instance = M.Collapsible.getInstance(elem);
+  instance.open(3);
+  instance.close(3);
+  instance.destroy();
+
+});
+
+
+
+
  
