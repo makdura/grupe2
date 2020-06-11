@@ -18,4 +18,17 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+M.toast({html: 'I am a toast!'})
 
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.collapsible');
+  var instances = M.Collapsible.init(elems, options);
+    instance.open(3);
+  
+
+});
+
+
+
+
+ 
