@@ -180,7 +180,7 @@
           <i class="material-icons prefix">mode_edit</i>
           <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
           <label for="icon_prefix2">Patiko mūsų darbai ? Parašykite komentarą mums</label>
-          <a class="btn" onclick="Materialize.toast('Ačiū už komentarą', 4000)">Siūsk!</a>
+          <a onclick="M.toast({html: 'Ačiū už komentarą!'})" class="btn">Siūsk!</a>
         </div>
       </div>
     </form>

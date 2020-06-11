@@ -19,4 +19,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Valdemar
 
-M.toast('I am a toast!', 4000)
+M.toast('Ačiū už komentarą!', 4000)
