@@ -66,6 +66,7 @@ nav {
     background-image: url(../images/team.jpg);
     background-size: cover;
     background-position: center center;
+    position: relative;
     
 }
 
@@ -73,11 +74,19 @@ nav {
     padding: 120px;
 }
 
-/* label color */
+
 .input-field label {
-    color: rgb(255, 0, 0);
+    color: white;
   }
-    
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #0d3dd982;
+    position: absolute;
+    top: 0px;
+
+  }
 
 
 /* Dominyko stiliaus kodas: */

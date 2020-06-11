@@ -134,8 +134,11 @@
     </div>
 </div>
 
-<!-- <img class="img" src="images/team.jpg" alt="komanda"> -->
+
 <div class="footerimg">
+
+<div class="overlay">
+</div>
 
 <div class="footerformposition">
 <div class="row">
