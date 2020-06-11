@@ -3,7 +3,7 @@
 
 
 
-<div id="title" class="slide header">
+<!-- <div id="title" class="slide header">
   <h1>Sveiki atvyke į GDMTV</h1>
 </div>
 
@@ -28,10 +28,17 @@
     <h1>Projektą finansuoja</h1>
     <p>Lorem ipsum dolor sit amet, in velit iudico mandamus sit, persius dolorum in per, postulant mnesarchum cu nam. Malis movet ornatus id vim, feugait detracto est ea, eam eruditi conceptam in. Ne sit explicari interesset. Labores perpetua cum at. Id viris docendi denique vim.</p>
   </div>
+</div> -->
+
+
+<div class="parallax">
+  <div class="parallax__layer parallax__layer--back">
+    
+  </div>
+  <div class="parallax__layer parallax__layer--base">
+    ...
+  </div>
 </div>
-
-
-
 
 
    

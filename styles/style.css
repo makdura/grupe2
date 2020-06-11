@@ -100,9 +100,9 @@ nav {
 
 /* Teodoro stiliaus kodas: */
 
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+/* @import url(https://fonts.googleapis.com/css?family=Nunito);
 
-/*html {
+html {
   height: 100%;
   overflow: hidden;
 } 
@@ -116,9 +116,9 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: Nunito;
-} */
+} 
 
-/* h1 {
+ h1 {
    font-size: 250%
    
 }
@@ -127,7 +127,7 @@ p {
   font-size: 140%;
   line-height: 150%;
   color: #333;
-} */
+} 
 
 .slide {
   position: relative;
@@ -139,7 +139,7 @@ p {
 	transform-style: inherit;
 }
 
-/* img {
+img {
   position: absolute;
   top: 50%;
   left: 35%;
@@ -154,7 +154,7 @@ p {
 
 img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-} */
+} 
 
 .slide:before {
   content: "";
@@ -188,19 +188,19 @@ img:last-of-type {
   background: 50% 50% / cover;  
 }
 
-/* .header {
+.header {
   text-align: center;
   font-size: 175%;
   color: #fff;
   text-shadow: 0 2px 2px #000;
-} */
+} 
 
 #title {
   background-image: url("https://bizstatic4.orstatic.com/userphoto/Coupon/0/3G/000OJJC67FE20EB92F2F76lx.jpg");
   z-index:2;
 }
 
-/* #title h1 {
+ #title h1 {
  transform: translateZ(.25px) scale(.75);
  transform-origin: 50% 100%;
 
@@ -219,7 +219,7 @@ img:last-of-type {
 #slide3:before {
   background-image: url("https://st4.cannypic.com/thumbs/35/357683_632_canny_pic.jpg");
   transform: translateZ(-1px) scale(2);
-}
+} */
 
 
  
