@@ -34,6 +34,11 @@
 
     </div>
 
+<<<<<<< HEAD
+</div> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+=======
+>>>>>>> b8e28faecb3363a57a8a522dbe4128f862fa0905
 
    
 
@@ -57,9 +62,7 @@
     </div>
   </div>
 
-</div>
-
-<ul class="collapsible">
+  <ul class="collapsible">
     <li>
       <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
@@ -73,6 +76,9 @@
       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
     </li>
   </ul>
+
+</div>
+
 
  
         

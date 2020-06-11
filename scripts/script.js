@@ -8,26 +8,26 @@ document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.materialboxed');
   var instances = M.Materialbox.init(elems);
 
+  var elems = document.querySelectorAll('.tooltipped');
+  var instances = M.Tooltip.init(elems);
+
 });
 
 // Genadijaus
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.carousel');
   var instances = M.Carousel.init(elems);
-  
+
 });
 
-// Mantas
 
 M.toast({html: 'I am a toast!'})
 
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.collapsible');
   var instances = M.Collapsible.init(elems, options);
-  var instance = M.Collapsible.getInstance(elem);
-  instance.open(3);
-  instance.close(3);
-  instance.destroy();
+    instance.open(3);
+  
 
 });
 
