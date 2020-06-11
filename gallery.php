@@ -14,14 +14,14 @@
 
         if (isset($_GET["text"])) {
 
-            $name = $_GET["text"];
+            $text = $_GET["text"];
             
 
 
             $sql = "INSERT INTO data (id, text) VALUES (null, '$text')";
 
             if ($conn->query($sql) === TRUE) {
-                header("Location: index.php?status=success");
+                header("Location: gallery.php?status=success");
             } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
             }
@@ -177,10 +177,13 @@
     <form class="col s12 offset-l3">
       <div class="row">
         <div class="input-field col s6">
+        <form action="">
           <i class="material-icons prefix">mode_edit</i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <textarea id="icon_prefix2" class="materialize-textarea" name="text"></textarea>
           <label for="icon_prefix2">Patiko mūsų darbai ? Parašykite komentarą mums</label>
-          <a onclick="M.toast({html: 'Ačiū už komentarą!'})" class="btn">Siūsk!</a>
+          <!-- <a onclick="M.toast({html: 'Ačiū už komentarą!'})" class="btn">Siūsk!</a> -->
+          <button>Siusk info</button>
+          </form>
         </div>
       </div>
     </form>

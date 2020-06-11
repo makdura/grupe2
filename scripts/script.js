@@ -16,7 +16,3 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Carousel.init(elems);
   
 });
-
-// Valdemar
-
-M.toast('Ačiū už komentarą!', 4000)
