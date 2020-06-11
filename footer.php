@@ -13,42 +13,39 @@
                     $password = "";
                     $dbname = "birzelis2121";
 
-                    // Create connection
                     $conn = new mysqli($servername, $username, $password, $dbname);
-                    // Check connection
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
-
 
                     if (isset($_GET["name"])) {
 
                         $name = $_GET["name"];
                         $email = $_GET["email"];
+                        $bankid = $_GET["bankid"];
 
-                        if (isset($_GET["bankid"])) {
-                            $bankid = $_GET["bankid"];
-                        } else {
-                            $bankid = 0;
-                        }
                     }
 
-                        $sql = "INSERT INTO scamers (id, name, email, bankid) VALUES (null, '$name', '$email', '$bankid')";
-                        if ($conn->query($sql) === TRUE) {
-                            echo "New record created successfully";
-                          } else {
-                            echo "Error: " . $sql . "<br>" . $conn->error;
-                          }
+                    $sql = "INSERT INTO scamers (id, name, email, bankid) VALUES (null, '$name', '$email', '$bankid')";
+
+                    if ($conn->query($sql) === TRUE) {
+                        echo "New record created successfully";
+                    } else {
+                        echo "Error: " . $sql . "<br>" . $conn->error;
+                    }
+
+                    $sql = "SELECT id, name, email, bankid FROM scamers";
+                    $result = $conn->query($sql);
                     $conn->close();
                     ?>
 
-                    <form action="index.php">
+                    <form action="">
                         <label for="name">Vardas Pavardė:</label>
                         <input type="text" name="name"><br>
                         <label for="email">E-Pašto adresas:</label>
                         <input type="text" name="email"><br>
-                        <label for="experience">Jūsų banko sąskaitos kontaktinė informacija:</label><br>
-                        <input type="text" name="bankid" cols="20" rows="2"></input><br>
+                        <label for="bankid">Jūsų banko sąskaitos kontaktinė informacija:</label><br>
+                        <input type="text" name="bankid"></input><br>
                         <button>Registruotis!</button>
                     </form><br>
                 </div>
