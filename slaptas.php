@@ -42,7 +42,36 @@
         }
         $conn->close();
     }
+    ?> <br>
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "birzelis2121";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    if (!$conn->connect_error) {
+
+        $sql = "SELECT id, text FROM data";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+
+            echo "<table><tr><th>ID</th><th>Text</th></tr>";
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr><td>" . $row["id"] . "</td><td>" . $row["text"] . "</td></tr>";
+            }
+            echo "</table>";
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
+    }
     ?>
+
+
 <br><a class="black-text right" href="index.php">Grįžti į pagrindinį puslapį -></a>
 </body>
 
