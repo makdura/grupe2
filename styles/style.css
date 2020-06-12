@@ -100,10 +100,18 @@ nav {
 
   }
 
-  .btn {
+  /* .btn {
     background-color: red;
     position: absolute;
+  } */
+
+  .knopke {
+
+    position: absolute;
+    top: 15px;
   }
+
+  
 
 
 /* Dominyko stiliaus kodas: */

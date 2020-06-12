@@ -182,7 +182,7 @@
           <textarea id="icon_prefix2" class="materialize-textarea" name="text"></textarea>
           <label for="icon_prefix2">Patiko mūsų darbai ? Parašykite komentarą mums</label>
           <!-- <a onclick="M.toast({html: 'Ačiū už komentarą!'})" class="btn">Siūsk!</a> -->
-          <button>Siusk info</button>
+          <button class="knopke">Siusk info</button>
           </form>
         </div>
       </div>
