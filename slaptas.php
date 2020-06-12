@@ -43,7 +43,7 @@
         $conn->close();
     }
     ?>
-
+<br><a class="black-text right" href="index.php">Grįžti į pagrindinį puslapį -></a>
 </body>
 
 </html>
