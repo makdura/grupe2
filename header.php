@@ -47,6 +47,20 @@
     }
     ?>
 
+<?php
+    if (isset($_GET["code"])){
+    $code = $_GET["code"];
+        switch($code) {
+        case '123456':
+            header('Location: slaptas.php');
+        break;
+        default:
+        header ('Location: index.php');
+    }
+}
+?>
+
+
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="mailto:someone@example.com">Imones Galva</a></li>
         <li><a href="mailto:someone@example.com">Imones Peciai</a></li>

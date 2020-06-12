@@ -1,4 +1,3 @@
-
 <?php include "header.php" ?>
 
 <!-- Čia apie puslapio vidinė dalis -->
@@ -35,33 +34,58 @@
     </div>
 
 
-   
-
   </div>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-  <script src="scripts/script.js"></script>
 
   <div class="comentPosition">
-    <div class="row">
-      <form class="col s12 offset-l1">
-        <div class="row">
-          <div class="input-field col s10">
-            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-            <label for="icon_prefix2"> Įdomu ką darom? Pat sugalvok ką veikti</label>
-          </div>
+  <div class="row">
+    <form class="col s12 offset-l1">
+      <div class="row">
+        <div class="input-field col s10">
+          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <label for="icon_prefix2" class="blue-text text-darken-4"> Įdomu ką darom? Pat sugalvok ką veikti</label>
         </div>
-      </form>
-    </div>
+      </div>
+    </form>
   </div>
+</div>
+
+<ul class="collapsible">
+  <li>
+    <div class="collapsible-header">Darom</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+  <li>
+    <div class="collapsible-header">Dirbam</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+  <li>
+    <div class="collapsible-header">Padarom</div>
+    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+  </li>
+</ul>
+
+<br>
+
 
 </div>
 
 <div class="tost">
- <a onclick="M.toast({html: 'Mes viska baigę!'})" class="btn">Apie mus mus!</a>
+  <a onclick="M.toast({html: 'Mes viską baigę!'})" class="btn2">Apie mus mus mus mus mus!</a>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

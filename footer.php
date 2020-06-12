@@ -26,7 +26,7 @@
                         <li><a class="grey-text text-lighten-3" href="https://www.seb.lt">SEB</a></li><br>
                         <li><a class="grey-text text-lighten-3" href="https://www.vilniuscoding.lt">Coding School</a></li><br>
                     </ul>
-                    <form action="index.php" method="POST">
+                    <form action="index.php" method="GET">
                         <label for="">ADMIN</label>
                         <input type="text" name="code" />
                         <input type="submit" value="Submit" />
