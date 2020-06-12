@@ -153,7 +153,7 @@
       <div class="card">
       <div class="card-panel hoverable">
         <div class="card-image">
-          <img class="materialboxed" data-caption="Aštuntas projektas" src="images/project-5.jpg" height="200px">
+          <img class="materialboxed" data-caption="Aštuntas projektas" src="images/project-10.jpg" height="200px">
           <span class="card-title">Aštuntas projektas</span>
         </div>
         <div class="card-content">
