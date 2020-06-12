@@ -5,7 +5,7 @@
 <div class="container ">
     <div class="BendraInfo">
         <h1>Mūsų smagus kolektyvas</h1>
-        <img class="responsive-img" src="images/about.jpg" alt="Bendra nuotrauka">
+        <img class="responsive-img z-depth-3" src="images/about.jpg" alt="Bendra nuotrauka">
         <p class="flow-text center-align">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas et esse dolor nam rerum tenetur similique cupiditate optio reprehenderit saepe, delectus voluptatum quaerat, reiciendis ex. Neque, obcaecati? Non, repellat omnis?
         </p>
