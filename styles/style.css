@@ -55,7 +55,7 @@ nav {
     /* Set the size of the div element that contains the map Google maps */
     #map {
       height: 300px;  /* The height is 400 pixels */
-      width: 51%;  /* The width is the width of the web page */
+      width: 100%;  /* The width is the width of the web page */
      }
 
      #zemelapis {
@@ -63,6 +63,19 @@ nav {
        color: blue;
        font-size: x-large;
 
+     }
+
+     .centras{
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+     }
+     .center {
+      font-weight: bold;
+      color: blue;
+      
      }
 
 /* Valdemaro stiliaus kodas: */

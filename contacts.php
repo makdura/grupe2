@@ -54,9 +54,13 @@
         </a>
     </div>
 
-    
 
-        <div class="chip">
+
+
+    <h4 class ="center " >Spausk veidelį :</h4>
+    <div class="centras">
+        
+        <div class=" chip ">
             <img src="images/person_4.jpg" alt="Dominykas">
             <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Dominykas</a>
         </div>
@@ -76,14 +80,15 @@
             <img src="images/speaker-5.jpg" alt="Genadijus">
             <a target="_blank" href="https://www.youtube.com/watch?v=btPJPFnesV4">Genadijus</a>
         </div>
-  
+    </div>
 
-
-
-
+    <br><br>
+    
 
 
     <!-- Google maps !!!!!!!!!!!!!!!!!!!! -->
+
+
 
     <h5 id="zemelapis">Mes esame gražiausioje Lietuvos vietoje:</h5>
     <!--The div element for the map -->
@@ -112,8 +117,9 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV6bBDWBXNGjglxmMSXrhUEpuPWItjCRM&callback=initMap">
     </script>
 
-</div>
 
+
+</div>
 
 
 <?php include "footer.php" ?>
