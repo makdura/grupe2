@@ -19,50 +19,52 @@
     </div>
 
     <div class="slide">
-      <h1>kompanijos Istorija</h1>
+      <h1>Kompanijos istorija</h1>
       <p style="font-size: 30px;">Mūsų kompanija prasidejo 18:30, sukuriant komandinį projektą su įdeja suteikti tobulas paslaugas visiems lietuvos žmonėms. dabar DGMTV siūlo paslaugas internetinėje svetainėje, taip pasiekdami kekvieną vartotoją betkurioje lieuvos vietoje!</p>
       <img class="responsive-img materialboxed" src="https://i.pinimg.com/originals/7d/38/88/7d38889d407fa37191c8a96cf85d7797.jpg" alt="">
     </div>
     <div class="slide2">
       <h1>Užsiregistruok ir laimėk!</h1>
       <p style="font-size: 40px;">Kekvienas užsiregistravęs vartotojas laimės Iphone 11!!!</p>
-      <p style="font-size: 15px;">*Dėl telefono paskolų pakalbėsim po registracijos</p>
+      <p style="font-size: 15px;">*Dėl telefono lizingo pakalbėsim po registracijos</p>
       <img src="https://www.ziniuradijas.lt/assets/Uploads/Episodes/Images/_resampled/ScaleWidthWzYwMCxudWxsXQ/zilvinas-silenas-list212.png" alt="">
     </div>
-<div class="slide">
-    <div class="row center-align">
-      <div class="col s12 m6 l3">
-      <p style="font-size: 30px;">Barclays</p>
+    
+    <div class="slide">
+      <h1>Pagrindiniai remėjai</h1>
+      <div class="row center-align">
+        <div class="col s12 m6 l3">
+          <p style="font-size: 30px;">Barclays</p>
           <img src="https://media.licdn.com/dms/image/C4D0BAQFB40olEL2zEg/company-logo_200_200/0?e=2159024400&v=beta&t=jKiQqt2GylHQiduQ7lUaLMLqus-vkTwmCVpxcu1LPm4" alt="">
-        
-      </div>
 
-      <div class="col s12 m6 l3">
-      <p style="font-size: 30px;">Coding_school</p>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <p style="font-size: 30px;">Coding_school</p>
           <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGWHfB-yQ54jw/company-logo_200_200/0?e=2159024400&v=beta&t=DKPlQb_StgDvR1LBUkcqSnG7bunswI4_Nej1wYz7M08" alt="">
-        
-      </div>
 
-      <div class="col s12 m6 l3">
-      <p style="font-size: 30px;">SEB</p>
+        </div>
+
+        <div class="col s12 m6 l3">
+          <p style="font-size: 30px;">SEB</p>
           <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFYNmBvtZY7eQ/company-logo_200_200/0?e=2159024400&v=beta&t=Ge3ME82wOfyYKT9C5ygVwwHr9ui0_9jJkEjFgdRD73s" alt="">
-        
+
+        </div>
+
+        <div class="col s12 m6 l3">
+          <p style="font-size: 30px;">MAXIMA</p>
+          <img src="https://www.maxima.lt/images/front/logos/maxima_logo.png" alt="">
+
+
+        </div>
+
+
+
       </div>
-
-      <div class="col s12 m6 l3">
-        <p style="font-size: 30px;">MAXIMA</p>
-        <img src="https://www.maxima.lt/images/front/logos/maxima_logo.png" alt="">
-        
-
-      </div>
-
-
-
-    </div>
     </div>
   </div>
 
-</div>   
+</div>
 
 
 
